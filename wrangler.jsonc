@@ -14,5 +14,25 @@
   "observability": {
     "enabled": true
   },
-  "upload_source_maps": true
+  "upload_source_maps": true,
+"d1_databases": [
+    {
+      "binding": "DB",
+      "database_id": "4aae3b12-31e1-4e53-a2bb-56ac6a57db19",
+      "database_name": "mbathamelusi-d1",
+    },
+  ],
+  "r2_buckets": [
+    {
+      "binding": "bucket",
+      "bucket_name": "mbathamelusi-r2",
+      "preview_bucket_name": "mbathamelusi-r2",
+    },
+  ],
+  "env": {
+    "CLOUDFLARE_ACCOUNT_ID": "33062d3c15947426ed522d7b5c4accfa",
+    "CLOUDFLARE_DATABASE_ID": "4aae3b12-31e1-4e53-a2bb-56ac6a57db19",
+    "CLOUDFLARE_D1_TOKEN": "kX4-6o-81S8-QrdncAwLU6UlkuMrQ2BsEc-22Q0h",
+    "CLOUDFLARE_API_KEY": "_fnxbLYWs64t03XiwPz6mCvDwttNKHPbW8mGUaEj",
+  },
 }
